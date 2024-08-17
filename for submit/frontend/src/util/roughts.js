@@ -1,0 +1,8 @@
+
+const host = 'http://localhost:3000';
+export const postLogin = `${host}/api/user/login`;
+export const postRegister = `${host}/api/user/register`;
+export const forgotUser = `${host}/api/user/forgot`
+export const checkOtp = `${host}/api/user/checkOtp`
+export const changePass = `${host}/api/user/changePass`
+
